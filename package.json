@@ -1,0 +1,29 @@
+{
+  "name": "filesystem-explorer",
+  "version": "1.0.0",
+  "description": "`#html` `#css` `#js` `#php` `#master-in-software-engineering`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass -watch ./src/pages/ -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathancede/filesystem-explorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathancede/filesystem-explorer/issues"
+  },
+  "homepage": "https://github.com/jonathancede/filesystem-explorer#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "node-sass": "^6.0.0",
+    "sass": "^1.35.1"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.17.1",
+    "prettier": "^2.3.1"
+  }
+}
