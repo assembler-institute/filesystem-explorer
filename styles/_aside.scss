@@ -1,0 +1,66 @@
+@use "./global" as global;
+.aside{
+    background-color: rgb(204, 232, 248);
+    min-width: 300px;
+    
+}
+.newFolderButon{
+  @include global.inputs("red", "100px");
+}
+.optionsMenu{
+  position: relative;
+  
+}
+.options{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(245, 245, 245);
+    list-style: none;
+    width: 40%;
+    border-radius: 10px;
+    animation-name: displayList;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+    font-size: 20px;
+    left: 120px;
+    top:-30px;
+}
+.newFolderForm{
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top:-30px;
+    padding: 50px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    animation-name: displayList;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+    min-width: 300px;
+}
+.options button{
+   
+    border:none;
+    background-color: rgb(245, 245, 245);;
+    cursor: pointer;
+    padding: 20px;
+    
+}
+.Option{
+   
+    border-top: 1px solid rgb(192, 191, 191);
+    border-bottom: 1px solid rgb(192, 191, 191);
+}
+// .uploadItemForm{
+//     position: absolute;
+//     z-index: 1;
+//     left: 550px;
+//     top:-30px;
+//     padding: 50px;
+//     background-color: rgb(245, 245, 245);
+//     border-radius: 10px;
+//     animation-name: displayList;
+//     animation-duration: 0.2s;
+//     animation-timing-function: ease-out;
+//     min-width: 300px;
+// }
