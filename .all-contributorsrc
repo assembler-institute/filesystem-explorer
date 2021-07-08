@@ -1,0 +1,39 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "solaz0824",
+      "name": "Eunyoung Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50446830?v=4",
+      "profile": "https://github.com/solaz0824",
+      "contributions": [
+        "code",
+        "design",
+        "ideas",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "mhfortuna",
+      "name": "Mathias Fortuna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66578026?v=4",
+      "profile": "https://github.com/mhfortuna",
+      "contributions": [
+        "code",
+        "design",
+        "ideas",
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "filesystem-explorer",
+  "projectOwner": "mhfortuna",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

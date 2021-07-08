@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+:root {
+  --brandGreen: #048a81;
+  --brandPurple: #a06b9a;
+  --brandLightGray: #383b3f;
+  --brandDarkGray: #212529;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(248, 249, 250);
+}
+a {
+  text-decoration: none;
+}
+.searchBox {
+  width: 200px;
+}
+.searchButton {
+  background-color: var(--brandGreen);
+  color: white;
+  font-weight: 700;
+  cursor: pointer !important;
+}
+.closeText {
+  color: white;
+}
+.logoContainer {
+  width: 200px;
+  margin-left: 15px;
+}
+.sideButtons {
+  width: 100%;
+  border: 1px solid var(--brandGreen);
+  background: none;
+  margin: 0 0;
+  transition: transform 0.3s;
+}
+.sideButtons:hover {
+  transform: translateX(10px);
+}
+
+.text-color-green {
+  color: var(--brandGreen);
+}
+.background-light-gray {
+  background-color: var(--brandLightGray);
+}
+
+.side-span {
+  padding-left: 10px;
+}
+
+.file-select {
+  margin-right: 10px;
+}
+
+#returnForm {
+  margin-right: 10px;
+  /* display: none; */
+}
+.returnBtn {
+  display: none;
+}
+
+.returnIcon:hover {
+  fill: var(--brandGreen);
+}
+
+/* .main-table {
+  width: 85vw;
+} */
+.tableHead {
+  background-color: var(--brandGreen);
+  color: white;
+}
+
+.folder-toggle {
+  display: inline-block;
+}
+
+.folder-toggle::before {
+  display: inline-block;
+  width: 16px;
+  line-height: 16px;
+  filter: invert(100%);
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform 0.35s ease;
+  transform-origin: center 50%;
+  transform: rotate(0deg);
+  height: 1em;
+  margin-right: 5px;
+}
+
+.folder-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.breadcrumb-item > a {
+  color: white;
+  transition: font-weight 0.3s ease-in;
+  display: inline-block;
+}
+.breadcrumb-item > a:hover {
+  /* transform: translateY(-2px); */
+  font-weight: bold;
+}
+.dropdown-item {
+  transition: background-color 0.3s;
+}
+.dropdown-item:active {
+  background-color: var(--brandLightGray);
+}
+.nav-link {
+  transition: filter 0.3s;
+}
+.nav-link:hover {
+  filter: invert(50%);
+}
+
+.hover-green {
+  transition: color 0.3s;
+}
+.hover-green:hover {
+  color: var(--brandGreen);
+}
+
+.sidebar {
+  min-height: calc(100vh - 94px);
+}

@@ -1,25 +1,56 @@
 `#html` `#css` `#js` `#php` `#master-in-software-engineering`
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # PHP Local FileSystem explorer <!-- omit in toc -->
-
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
-
->In this project you will have to create a system file explorer that allows the user to navigate, create directories and upload files in the same way as he would in his usual operating system. 
-
->The file explorer is a tool that allows you to directly view and manipulate the files and directories associated with a path, so you must take into account from which path the user starts and which path they can access.
-
+_A File Explorer made with PHP, HTML, JS and CSS_
+>This project is part of the Master in Software Development. The objective was to create a system file explorer that allows the user to navigate, create directories and upload files in the same way as he would in his usual operating system. 
 
 ## Index <!-- omit in toc -->
-
+- [Where to start?](#where-to-start?)
 - [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
+- [Install](#install)
+- [Deployment](#deployment)
+- [Documentation](#documentation)
+- [Tools and tecnologies used](#tools-and-tecnologies-used)
+- [Project requirements](#Project-requirements)
 - [Resources](#resources)
 
-## Requirements
+## Where to start?🚀
+
+### Requirements📋
+
+To run this project you need yo have XAMPP installed in your PC. For more information about XAMPP visit [their website](https://www.apachefriends.org/es/index.html).
+
+### Install🔧
+
+To clone this repository you have make in terminal:
+
+```
+git clone https://github.com/mhfortuna/filesystem-explorer.git
+```
+Then you need to copy this folder to `htdocs` or change the server variable.
+
+_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+
+## Deployment📦
+
+To open the file explorer just open a browser and go to [localhost](localhost)
+
+## Documentation 📚
+
+In this repo there is a folder called _doc_. There you can find the project's wireframes, daily log, presentation, etc.
+
+## Tools and tecnologies used 🛠️
+
+* PHP
+* HTML
+* CSS
+* JavaScript
+* Bootstrap 
+
+## Project requirements 📏
 
 - You cannot use file third-party libraries
 - You will not be able to use global variables in PHP.
@@ -34,43 +65,33 @@
 - You should try as much as possible that the commits and the planned tasks are the same
 Delete files that are not used or are not necessary to evaluate the project
 
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
-
-## Technologies used
-
-\* HTML
-
-\* CSS
-
-\* JS
-
-\* PHP
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
-- You must include the project documentation in PDF format.
-- You must include a presentation in PDF format explaining:
-  - Comparison of the original design (Wireframe) with the final result of the project
-  - Comparison of the use case diagram with the actions that the user can finally perform
-  - Comparison of the original use case diagram with the final user actions
-  - What lessons you’ve learned during this project
-  - What problems have you encountered when developing this project?
-  - How you have organized and distributed the tasks
-
-
 ## Resources
 
 - [File system](https://es.wikipedia.org/wiki/Administrador_de_archivos)
 - [PHP FileSystem W3C](https://www.w3schools.com/php/php_ref_filesystem.asp)
 - [PHP FileSystem Oficial](https://www.php.net/manual/es/book.filesystem.php)
 - [README Guidelines Example](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjIxNzY3OTI1LC0xMTM4ODIxNDc2LDEyOD
+M0MTMyMTFdfQ==
+-->
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/solaz0824"><img src="https://avatars.githubusercontent.com/u/50446830?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eunyoung Kim</b></sub></a><br /><a href="https://github.com/mhfortuna/filesystem-explorer/commits?author=solaz0824" title="Code">💻</a> <a href="#design-solaz0824" title="Design">🎨</a> <a href="#ideas-solaz0824" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-solaz0824" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/mhfortuna"><img src="https://avatars.githubusercontent.com/u/66578026?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mathias Fortuna</b></sub></a><br /><a href="https://github.com/mhfortuna/filesystem-explorer/commits?author=mhfortuna" title="Code">💻</a> <a href="#design-mhfortuna" title="Design">🎨</a> <a href="#ideas-mhfortuna" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-mhfortuna" title="Project Management">📆</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
