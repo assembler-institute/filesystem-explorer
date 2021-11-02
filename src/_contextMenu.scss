@@ -1,0 +1,99 @@
+.rightClick {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  display: none;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  z-index: 100;
+}
+
+.rightClick .buttons {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.rightClick .buttons button.but {
+  cursor: pointer;
+  z-index: 0;
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+.rightClick .buttons button.but:nth-child(1) {
+  left: 30px;
+  top: 34px;
+}
+
+.rightClick .buttons button.but:nth-child(2) {
+  left: 80px;
+  top: 0px;
+}
+
+.rightClick .buttons button.but:nth-child(3) {
+  left: 130px;
+  top: 34px;
+}
+
+.rightClick .overlap {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 50%;
+  background: #1f4968;
+  margin-top: 50%;
+  border-radius: 0 0 100px 100px;
+  z-index: 100;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+.rightClick.showing {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.rightClick.showing .buttons {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+
+.context-menu-icon {
+  width: 2rem;
+}

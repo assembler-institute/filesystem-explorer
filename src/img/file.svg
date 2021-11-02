@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        text-anchor: middle;
+        font-family: Consolas;
+      }
+    </style>
+  </defs>
+  <path id="Forma_2" data-name="Forma 2" class="cls-1" d="M162,21H66s-1.68-1.332-5,2S22,59,22,59s-2.063.229-2,4,0,122,0,122,0.843,2.6,2.81,3.021C26.586,188.826,164,188,164,188s2,0.518,2-2V24s0.038-2.98-2-3-2,0-2,0M65,115.152s-5.712,2.1-5.712,6.848v48s-0.327,5.758,4.712,5.758H177s5.082-.712,5.082-5.758V121s0.113-5.848-5.082-5.848H65Z"/>
+  <path id="Forma_3" data-name="Forma 3" class="cls-1" d="M166,115.152H64s-4.712,1.44-4.712,5.848v51A4.859,4.859,0,0,0,64,175.758H178s4.082-.085,4.082-5.758V121s-1.654-5.848-5.082-5.848H166Z"/>
+  <path id="Línea_1" data-name="Línea 1" class="cls-1" d="M59,51h0Z"/>
+  <path id="Línea_2" data-name="Línea 2" class="cls-1" d="M59,67h0Z"/>
+  <path id="Línea_2-2" data-name="Línea 2" class="cls-1" d="M60,83h0Z"/>
+  <path id="Línea_3" data-name="Línea 3" class="cls-1" d="M59,100h0Z"/>
+  <text id="_.file" data-name=".file" class="cls-2" x="115.003" y="157.32"><tspan x="115.003">.file</tspan></text>
+</svg>

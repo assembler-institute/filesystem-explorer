@@ -1,0 +1,76 @@
+@mixin backgroundBase {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.default-icon {
+  @include backgroundBase;
+  background-image: url("img/none.svg");
+}
+
+.txt {
+  @include backgroundBase;
+  background-image: url("img/txt.svg");
+}
+
+.php {
+  @include backgroundBase;
+  background-image: url("img/php.svg");
+}
+.doc {
+  @include backgroundBase;
+  background-image: url("img/doc.svg");
+}
+.csv {
+  @include backgroundBase;
+  background-image: url("img/csv.svg");
+}
+.jpg {
+  @include backgroundBase;
+  background-image: url("img/jpg.svg");
+}
+.png {
+  @include backgroundBase;
+  background-image: url("img/png.svg");
+}
+.txt {
+  @include backgroundBase;
+  background-image: url("img/txt.svg");
+}
+.ppt {
+  @include backgroundBase;
+  background-image: url("img/ppt.svg");
+}
+.odt {
+  @include backgroundBase;
+  background-image: url("img/odt.svg");
+}
+.pdf {
+  @include backgroundBase;
+  background-image: url("img/pdf.svg");
+}
+.zip {
+  @include backgroundBase;
+  background-image: url("img/zip.svg");
+}
+.rar {
+  @include backgroundBase;
+  background-image: url("img/rar.svg");
+}
+.exe {
+  @include backgroundBase;
+  background-image: url("img/exe.svg");
+}
+.svg {
+  @include backgroundBase;
+  background-image: url("img/svg.svg");
+}
+.mp3 {
+  @include backgroundBase;
+  background-image: url("img/mp3.svg");
+}
+.mp4 {
+  @include backgroundBase;
+  background-image: url("img/mp4.svg");
+}

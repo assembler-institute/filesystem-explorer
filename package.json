@@ -1,0 +1,24 @@
+{
+  "name": "filesystem-explorer",
+  "version": "1.0.0",
+  "description": "`#html` `#css` `#js` `#php` `#master-in-software-engineering`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelPerezMartinez/filesystem-explorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelPerezMartinez/filesystem-explorer/issues"
+  },
+  "homepage": "https://github.com/MiguelPerezMartinez/filesystem-explorer#readme",
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "jquery": "^3.6.0",
+    "sass": "^1.35.1"
+  }
+}

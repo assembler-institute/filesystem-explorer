@@ -1,0 +1,14 @@
+@use "colors";
+
+.hide {
+  display: none;
+}
+
+.back {
+  background-color: colors.$gray;
+
+  &:hover {
+    background-color: colors.$blue;
+  }
+}
+

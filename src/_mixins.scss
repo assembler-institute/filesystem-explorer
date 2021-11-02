@@ -1,0 +1,14 @@
+@use "colors";
+
+@mixin box-shadow {
+  border: 1px solid rgb(199, 199, 199);
+  background-color: colors.$white;
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.1);
+}
+
+@mixin right-box-shadow {
+  background-color: colors.$white;
+  -webkit-box-shadow: 17px 0px 19px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 17px 0px 19px -2px rgba(0, 0, 0, 0.2);
+}
