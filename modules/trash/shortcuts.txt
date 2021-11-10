@@ -1,0 +1,14 @@
+multiples linies: alt+clic
+
+crear amb classe: label. + nom de classe
+
+ex:
+section.footer  =  <section class="footer"> <section/>
+
+seleccionar tots:
+
+ctrl+Shift+l
+
+moure blocs de codi
+
+ctrl+'  

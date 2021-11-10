@@ -1,0 +1,29 @@
+{
+  "name": "filesystem-explorer",
+  "version": "1.0.0",
+  "description": "`#html` `#css` `#js` `#php` `#master-in-software-engineering`",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badyalberto/filesystem-explorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badyalberto/filesystem-explorer/issues"
+  },
+  "homepage": "https://github.com/badyalberto/filesystem-explorer#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "datatables.net-dt": "^1.11.3",
+    "jquery": "^3.6.0",
+    "jstree": "^3.3.12",
+    "npm": "^8.1.2"
+  }
+}
