@@ -1,0 +1,24 @@
+/* Sticky Footer Classes */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+html,
+body {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+
+
+
+
+
+/* Other Classes for Page Styling */
