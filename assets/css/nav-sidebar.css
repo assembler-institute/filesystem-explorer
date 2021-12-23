@@ -1,0 +1,214 @@
+:root{
+  --header-color:#212529;
+  --main-color:#3D4143;
+  --white:#ffffff;
+  --yellow-btn:#3D4143;
+}
+
+.sibeBar{
+  margin: 0;
+}
+.mainC{
+  margin: 0%;
+  flex:80%;
+  background-color: var(--main-color);
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+/* .col-left{
+  display: flex;
+  flex-direction:row-reverse;
+}
+.gridMain {
+  display: block;
+  width: 100px;
+  font-size: 10px;
+  overflow: hidden;
+} */
+.bg-primary {
+  background-color: var(--white)!important;
+  border:var(--yellow-btn) solid;
+  width: 100%;
+  height: 100vh;
+  top: 0; right: 0;
+}
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.LogoNav{
+  height: 80px;
+  width: 140px;
+  margin: 5px 0px 5px 95px;
+}
+.LogoNav:hover{
+  opacity: 0.8;
+}
+.bg-light {
+  background-color: #212529 !important;
+  color:var(--white);
+}
+/*CSS HOME*/
+.navbar-light .navbar-brand {
+  color:var(--white);
+  padding-left: 30px;
+}
+/*CSS NAV LINK*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: var(--white);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--white);
+}
+.nav-link {
+  display: block;
+  padding: 1.5rem 10rem;
+  margin: 0px 25px;
+  font-size: 20px;
+}
+/*CSS FORM ARCH*/
+.form-control{
+  display: block;
+  width: 100% !important;
+  height: 70%;
+  margin-left: 10px;
+  margin-top: 13px;
+  padding: .375rem 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/*BUTTONS*/
+/*BUTTON SEARCH*/
+.btn-outline-success{
+  color: var(--white);
+  border-color: var(--white);
+  margin: 20px !important;
+  margin-right: 130px !important;
+}
+.btn-warning{
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+.btnLogin{
+  color: var(--white);
+  border-color: var(--white);
+  background-color: transparent;
+  border: 2px solid;
+padding: 10px 30px 5px 30px;
+margin: 10px 0px 10px 55px;
+}
+.btn{
+display: inline-block;
+font-weight: 400;
+text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+border: 2px solid;
+padding: 5px 30px 5px 30px;
+margin: 10px 0px 10px 10px;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.UserIcon{
+  height: 70px;
+  width: 80px;
+  margin: 5px 0px 5px 20px;
+}
+.UserIcon:hover{
+  opacity: 0.8;
+}
+/*BTN NEW FILE*/
+#btnCreate{
+  display: flex;
+  flex-direction: center;
+  text-align: center;
+  margin-left: 10px;
+}
+/*SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR*/
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.side-bar{
+  display: flex;
+  flex-direction: center;
+  flex: auto;
+  background: var(--header-color);
+  backdrop-filter: blur(15px);
+  height: 100vh;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+.side-bar .menu{
+  width: 100%;
+  margin-top: 40px;
+}
+.side-bar .menu .item{
+  position: relative;
+  cursor: pointer;
+}
+.side-bar .menu .item a{
+  color: var(--white);
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 60px;
+}
+.side-bar .menu .item a:hover{
+  background: #8621f8;
+  transition: 0.3s ease;
+}
+.side-bar .menu .item i{
+  margin-right: 15px;
+}
+.side-bar .menu .item a .dropdown{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+.side-bar .menu .item .sub-menu{
+  background:rgba(255, 255, 255, 0.1);
+  display: none;
+}
+.side-bar .menu .item .sub-menu a{
+  padding-left: 40px;
+}
+.sub-menu svg {
+  display: none;
+}
+li a {
+  color: black;
+  font-size: 20px;
+}
