@@ -1,0 +1,60 @@
+.linkStyles:link{
+    color:black;
+    background-color: white;
+    z-index: 3;
+    text-decoration: none;
+}
+.linkStyles:visited{
+    color:black;
+    background-color: white;
+    z-index: 3;
+    text-decoration: none;
+}
+.linkStyles:hover{
+    color:black;
+    background-color: white;
+    z-index: 3;
+    text-decoration: none;
+}
+.linkStyles:active{
+    color:black;
+    background-color: white;
+    z-index: 3;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+}
+.accordion-heading a.accordion-toggle { 
+    display: inline-block !important;
+ }
+
+ .fa-folder{
+     color: orange;
+ }
+ .fa-file-word{
+    color: blue;
+}
+.fa-file-powerpoint{
+    color: tomato;
+}
+.fa-file-excel{
+    color: green;
+}
+.fa-file-image{
+    color: rgb(141, 73, 84) !important;
+}
+
+ .selected-a{
+    background-color: rgba(166, 166, 218, 0.3) !important;
+}
+
+  ul {
+      margin-left: 1em !important;
+    padding-left: 0 !important;
+  }
+
+.accordion{
+    padding-left: 2rem;
+}
