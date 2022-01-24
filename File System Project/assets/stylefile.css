@@ -1,0 +1,16 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+.content{
+    margin-top: 15em;
+}
+
+.logo{
+    margin-left: 0.5em;
+}
+
+.sectionImg{
+    max-width: fit-content;
+    width: 25%;
+}

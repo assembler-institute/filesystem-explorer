@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>File System Diagram</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>System File User Diagram</h2>
+            <div class="dropdown">
+                <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">User Click
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#"> Search <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="test" href="#"> Text <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Find Search <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu"></li>
+                                            <li><a href="#"></a> Open File / Folder </li>
+                                        </ul>
+                                        <a class="test" href="#">Don't Find <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu"></li>
+                                            <li><a href="#">New Search </a></li>
+                                            <li><a href="#">Cancel </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#"> Create <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="test" href="#"> Folder <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Open / create File <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu"></li>
+                                            <li><a href="#">Modify </a></li>
+                                            <li><a href="#">Update </a></li>
+                                            <li><a href="#">Save </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <a class="test" href="#"> File <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu"></li>
+                                    <li><a href="#">Modify </a></li>
+                                    <li><a href="#">Update </a></li>
+                                    <li><a href="#">Save </a></li>
+                                </ul>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#"> Update <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="test" href="#"> Folder <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Open<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu"></li>
+                                            <li><a href="#">Modify </a></li>
+                                            <li><a href="#">Update </a></li>
+                                            <li><a href="#">Save </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <a class="test" href="#"> File <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu"></li>
+                                    <li><a href="#">Modify </a></li>
+                                    <li><a href="#">Update </a></li>
+                                    <li><a href="#">Save </a></li>
+                                </ul>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#"> Delete <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="test" href="#"> Folder <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                    <li><a href="#">Move all (folder and files inside) to Trash </a></li>
+                            </li>
+                        </ul>
+                        <a class="test" href="#"> File <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu"></li>
+                            <li><a href="#">Move only the file selected to Trash </a></li>
+                        </ul>
+                </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="test" tabindex="-1" href="#"> Trash <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a class="test" href="#"> Folder <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a class="test" href="#">Open<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a class="test" href="#">Restore All folder <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu"></li>
+                                                <li><a href="#">Return to root the Folder and all Files </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a class="test" href="#">Restore File/ Files <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu"></li>
+                                                <li><a href="#">Return to root the File/Files Selected </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a class="test" href="#"> File <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a class="test" href="#">Restore File/ Files <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu"></li>
+                                        <li><a href="#">Return to root the File/Files Selected </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a class="test" href="#"> Clean Trash <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Delete Permanently all Folders/Files inside the Trash</a>
+                                </li>
+                            </ul>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="test" tabindex="-1" href="#"> Folder <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a class="test" href="#"> Open <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a class="test" href="#">Create Folder <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a class="test" href="#">Create File <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu"></li>
+                                                <li><a href="#">Modify </a></li>
+                                                <li><a href="#">Update </a></li>
+                                                <li><a href="#">Save </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <a class="test" href="#">Create File <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu"></li>
+                                        <li><a href="#">Modify </a></li>
+                                        <li><a href="#">Update </a></li>
+                                        <li><a href="#">Save </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="test" tabindex="-1" href="#"> File <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a class="test" href="#"> Open <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a class="test" href="#">Create File <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu"></li>
+                                        <li><a href="#">Modify </a></li>
+                                        <li><a href="#">Update </a></li>
+                                        <li><a href="#">Save </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <script>
+            $(document).ready(function () {
+                $('.dropdown-submenu a.test').on("click", function (e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+
+</html>
