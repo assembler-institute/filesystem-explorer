@@ -1,0 +1,41 @@
+main {
+  background-color: #BACBE5;
+}
+.container {
+  background-color: white;
+}
+button {
+  all: unset;
+}
+
+.add-file-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.file-display-icon {
+  height: 35%;
+
+}
+.file-preview-img {
+  width: 20px;
+  height: 20px;
+}
+
+.action-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.logo {
+  width: 40px;
+  height: 80px;
+}
+
+
+
+.card-btns {
+
+  width: 20px;
+  height: 20px;
+}
